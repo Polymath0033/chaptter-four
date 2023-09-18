@@ -1,0 +1,51 @@
+.article-b {
+    margin-top: 2rem;
+    display: grid;
+    gap: 0.5rem;
+    border: 1px solid #dadce0;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 2rem;
+}
+
+.article-b div {
+    display: flex;
+    gap: 0.5rem;
+}
+
+
+/* .section {
+    text-align: center;
+} */
+
+.section,
+.questions,
+.item {
+    display: grid;
+    gap: 1rem;
+}
+
+.questions {
+    gap: 2rem;
+}
+
+.item {
+    border: 1px solid #dadce0;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.answers {
+    display: grid;
+    gap: 0.5rem;
+}
+
+.answers label {
+    margin-left: 0.4rem;
+}
+
+.section h4 {
+    text-align: center;
+}
